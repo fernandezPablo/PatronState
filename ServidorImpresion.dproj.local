@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/05 21:48:09.000.279,=C:\Users\PABLO\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2022/12/05 21:48:09.000.553,=C:\Users\PABLO\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2023/04/12 23:53:27.000.353,=C:\Users\PABLO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/04/12 23:54:57.000.857,=C:\Users\PABLO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/04/13 21:29:02.000.299,=C:\Users\PABLO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/04/15 21:44:12.000.628,=C:\Users\PABLO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/04/17 20:44:54.000.095,=C:\Users\PABLO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/04 14:04:18.000.310,=C:\Users\PABLO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/04 14:06:34.000.150,C:\Users\PABLO\Documents\Embarcadero\Studio\Projects\Unit1.dfm=F:\Programacion\Delphi Projects\Servidor de Impresion\UF_LanzadorServidorImpresion.dfm</Transaction>
+    <Transaction>2023/06/04 14:06:34.000.150,C:\Users\PABLO\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\Programacion\Delphi Projects\Servidor de Impresion\UF_LanzadorServidorImpresion.pas</Transaction>
+    <Transaction>2023/06/04 14:07:01.000.887,C:\Users\PABLO\Documents\Embarcadero\Studio\Projects\Project1.dproj=F:\Programacion\Delphi Projects\Servidor de Impresion\ServidorImpresion.dproj</Transaction>
+    <Transaction>2023/06/04 14:33:19.000.503,=F:\Programacion\Delphi Projects\Servidor de Impresion\Unit1.pas</Transaction>
+    <Transaction>2023/06/04 14:33:53.000.930,F:\Programacion\Delphi Projects\Servidor de Impresion\Unit1.pas=F:\Programacion\Delphi Projects\Servidor de Impresion\U_ServidorImpresion.pas</Transaction>
+    <Transaction>2023/06/04 14:35:22.000.081,=F:\Programacion\Delphi Projects\Servidor de Impresion\Unit1.pas</Transaction>
+    <Transaction>2023/06/04 14:35:43.000.126,F:\Programacion\Delphi Projects\Servidor de Impresion\Unit1.pas=F:\Programacion\Delphi Projects\Servidor de Impresion\U_Estados.pas</Transaction>
+    <Transaction>2023/06/04 15:53:17.000.063,F:\Programacion\Delphi Projects\Servidor de Impresion\U_Estados.pas=</Transaction>
+    <Transaction>2023/06/05 20:13:36.000.804,=F:\Programacion\Delphi Projects\Servidor de Impresion\Unit1.pas</Transaction>
+    <Transaction>2023/06/05 20:13:47.000.591,F:\Programacion\Delphi Projects\Servidor de Impresion\Unit1.pas=F:\Programacion\Delphi Projects\Servidor de Impresion\U_Estados.pas</Transaction>
+  </Transactions>
+</BorlandProject>
