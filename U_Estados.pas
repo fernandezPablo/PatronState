@@ -106,7 +106,10 @@ var
 begin
    inherited;
    TServidorImpresion(ServidorImpresion).EnviarMensaje('Iniciando Servidor...', clYellow);
+   //Inicializar el hilo de impresión
    HiloImpresion := TBackgroundWorker.Create(nil);
+
+   //Asignar método que se ejecutará al iniciar el Hilo e iniciarlo.
    HiloImpresion.OnWork := Self.InicializandoServidor;
    HiloImpresion.Execute;
 end;
@@ -148,7 +151,10 @@ var
    HiloImpresion: TBackgroundWorker;
 begin
    TServidorImpresion(ServidorImpresion).EnviarMensaje('Deteniendo Servidor...', clWhite);
+   //Inicializar el hilo de impresión
    HiloImpresion := TBackgroundWorker.Create(nil);
+
+   //Asignar método que se ejecutará al iniciar el Hilo e iniciarlo.
    HiloImpresion.OnWork := Self.DeteniendoServidor;
    HiloImpresion.Execute;
 end;
@@ -181,7 +187,10 @@ var
    HiloImpresion: TBackgroundWorker;
 begin
    TServidorImpresion(ServidorImpresion).EnviarMensaje('Impresión en curso...', clBlue);
+   //Inicializar el hilo de impresión
    HiloImpresion := TBackgroundWorker.Create(nil);
+
+   //Asignar método que se ejecutará al iniciar el Hilo e iniciarlo.
    HiloImpresion.OnWork := Self.ImpresionEnCurso;
    HiloImpresion.Execute;
 end;

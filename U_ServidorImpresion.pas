@@ -6,13 +6,14 @@ uses System.Classes, U_Estados, Vcl.Graphics;
 
    type TServidorImpresion = class
       private
-         FEstado: TEstadoAbstracto;
+         FEstado: TEstadoAbstracto; //Representa el estado del ServidorImpresion (Contexto)
          FOwner: TComponent;
       public
          constructor Create(var AOwner: TComponent);
          procedure SetEstado(const Value: TEstadoAbstracto);
          property Estado: TEstadoAbstracto read FEstado write SetEstado;
          procedure EnviarMensaje(Mensaje: String; Color: TColor);
+         //Acciones ejecutadas sobre el contexto
          procedure Iniciar;
          procedure Detener;
          procedure Imprimir;
@@ -23,8 +24,9 @@ implementation
 
 uses UF_LanzadorServidorImpresion;
 
-
-{ TServidorImpresion }
+{==============================================================================
+                                 TServidorImpresion
+==============================================================================}
 
 constructor TServidorImpresion.Create(var AOwner: TComponent);
 begin
